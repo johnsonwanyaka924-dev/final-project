@@ -1,0 +1,261 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Main headings */
+h1 {
+    background-color: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #0b5ed7;
+}
+
+/* Paragraphs and lists */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px 20px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #222;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+/* Website banner */
+.banner {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+main img {
+    max-width: 100%;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
+
+/* Forms */
+form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+input,
+textarea,
+select {
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Week 4: Responsive design for tablets and phones */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .banner {
+        height: 180px;
+    }
+
+    .about-image {
+        height: 200px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        overflow-wrap: anywhere;
+    }
+
+    form {
+        padding: 12px;
+    }
+}
+.employers-image {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: 300px;
+    object-fit: cover;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+.jobs-image {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: 300px;
+    object-fit: cover;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+.jobseekers-image {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: 300px;
+    object-fit: cover;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+.services-image {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: 300px;
+    object-fit: cover;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+.social-contact {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.whatsapp-logo,
+.facebook-logo,
+.twitter-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.whatsapp-logo {
+    background-color: #25D366;
+}
+
+.facebook-logo {
+    background-color: #1877F2;
+}
+
+.twitter-logo {
+    background-color: #000000;
+}
